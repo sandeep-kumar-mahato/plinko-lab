@@ -1,7 +1,3 @@
-// ⭐ IMPROVED VERSION — Modern Colors, Better Font, Smooth Transitions, Polished UI
-// Full PlinkoApp component with enhanced styling, better color palette,
-// smoother animations, improved shadows, typography, and UI consistency.
-
 "use client";
 
 import React, {
@@ -95,7 +91,7 @@ export async function computeRoundFront({
 }
 
 /*********************************************************************************************
- * Plinko UI Component — ⭐ UPGRADED DESIGN
+ * Plinko UI Component 
  *********************************************************************************************/
 export default function PlinkoApp() {
   const rows = 12;
@@ -261,7 +257,7 @@ const [nonce, setNonce] = useState<string | null>(null);
   }
 
   /*********************************************************************************************
-   * RENDER UI — ⭐ MODERN DESIGN IMPROVED
+   * RENDER UI 
    *********************************************************************************************/
   return (
     <div className="min-h-screen bg-[#0b0d11] flex items-center justify-center p-8 font-[Inter] text-[14px]">
