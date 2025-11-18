@@ -454,7 +454,7 @@ const [nonce, setNonce] = useState<string | null>(null);
 
         {/* Footer */}
         <div className="p-4 text-xs text-gray-500 border-t border-[#22262e] bg-[#1a1d23]">
-          Keyboard: ← → to move, Space to drop, M to mute.
+          Keyboard: ← → to move, Space to drop, M to mute
         </div>
       </div>
     </div>
